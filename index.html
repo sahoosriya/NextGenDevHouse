@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            /*a{
+                text-decoration: none;
+            }
+            li{
+                 list-style-type: none;
+            }*/
+            #d1{
+                font-size: 18px;
+                height: 80px;
+                width: 300px;
+                transform: translate(1000px,-20px);
+            }
+      
+			li{
+				display: inline-block;
+				padding: 45px 25px;
+			}
+			a{
+				text-decoration: none;
+				color: rgb(254, 250, 254);
+			}
+			li:hover{
+                
+				background-color: rgb(21, 20, 21);
+			}
+			.a1{
+				display: none;
+				position: absolute;
+			}
+            .a2{
+				display: none;
+				position: absolute;
+			}
+			ul li:hover ul.d1{
+                height: 350px;
+                width: 175px;
+				display: block;
+				background-color: rgb(139, 237, 144);
+			}
+			.a1 li{
+				display: block;
+			}
+            ul li:hover ul.a1{
+				display: block;
+				background-color: rgb(10, 116, 151);
+			}
+			.a2 li{
+                color: rgb(237, 13, 237);
+				display: block;
+			}
+			ul li:hover ul.a2{
+				display: block;
+				background-color: rgb(233, 239, 241);
+			}
+
+        body{	
+				margin: 0px;
+				background-size: 100%;				
+				background-image: url(wallpaper.webp);
+			}
+	
+            #d2{
+				margin-left: 700px;
+				margin-top: -70px;	
+			}
+			p{
+				text-align: center;
+				margin-top: 300px;
+				font-family: cursive;
+				font-size: 90px;
+				font-weight: 5px;
+				color: rgb(16, 31, 248);
+			}
+			
+			input{
+				padding: 10px;
+				font-size: 30px;
+				color: rgb(217, 217, 226);
+				background-color: rgb(247, 17, 17);
+			}
+          
+    </style>
+</head> 
+<body>
+    <ul id="d1">
+		<li><a href="home">home</a>
+        <li><a href="">menu</a>
+            <ul class="a1">
+                <li><a href="recipe/chiken butter masla.html"> chiken butter masala</a></li>
+				<li><a href="recipe/paneer makhana.html"> paneer makhna</a></li>
+				<li><a href="recipe/momos.html"> fried momos </a></li>                
+            </ul>
+        </li>
+        <li><a href="">Contact</a>
+            <ul class="a2">
+                <li>7681074727</li>
+            </ul>
+        </li>
+    </ul>
+    <p>Welcome Here!</p>
+    <div id="d2">
+    <input type="button" name="b1" value="Learn More!!!">
+    <input type="button" name="b1" value="Explore More!!!">
+    </div>
+</body>
+</html>
